@@ -1,0 +1,38 @@
+{
+  "name": "apisprint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "RBK",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "browser-sync": "^2.14.0",
+    "chai": "^3.5.0",
+    "express": "^4.15.2",
+    "jwt-simple": "^0.5.1",
+    "mocha": "^3.2.0",
+    "mongoose": "^4.8.6",
+    "morgan": "^1.8.1",
+    "q": "^1.4.1",
+    "request": "^2.74.0",
+    "supertest": "^3.0.0",
+    "system": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.16.1",
+    "eslint-plugin-react": "^6.10.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
